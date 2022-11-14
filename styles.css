@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Oxygen&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: "Oxygen", sans-serif;
+}
+
+/*header*/
+header {
+    background-color: #375357;
+    color: #e9eded;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    height: 69px;
+}
+
+.header_left {
+    font-family: 'Cutive', serif;
+    font-size: 24px;
+}
+
+.header_right {
+    display: flex;
+    gap: 94px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e9eded;
+    font-size: 16px;
+}
