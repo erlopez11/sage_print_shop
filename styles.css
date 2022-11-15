@@ -46,8 +46,6 @@ a {
 .hero_image {
     background-image: url(images/hero_image.jpg);
     background-size: cover;
-    height: 550px;
-    width: 100%;
     display: flex;
     padding-left: 50px;
     padding-top: 20px;
@@ -111,4 +109,59 @@ a {
 .material {
     font-size: 14px;
     margin-top: 0;
+}
+
+/*Meet the Artists*/
+.artist_image {
+    height: 285px;
+    width: 204px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.artists h3{
+    font-family: 'Cutive', serif;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    color: #e9eded;
+}
+
+.artists {
+    background-color: #89aaaf;
+    height: 593px;
+    padding: 25px;
+}
+
+.artist_tiles {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.artist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name,
+.type {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.name {
+    font-size: 20px;
+    color: #1d2b2c;
+    margin-top: 25px;
+    margin-bottom: 2px;
+}
+
+.type {
+    font-size: 14px;
+    color: #e9eded;
+    margin-top: 10px;
 }
