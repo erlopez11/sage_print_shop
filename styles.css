@@ -130,6 +130,7 @@ a {
 .artists {
     background-color: #89aaaf;
     height: 593px;
+    margin-bottom: 0;
     padding: 25px;
 }
 
@@ -164,4 +165,17 @@ a {
     font-size: 14px;
     color: #e9eded;
     margin-top: 10px;
+}
+
+/*Footer*/
+footer{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    color: #e9eded;
+    background-color:#375357;
+    height: 69px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
