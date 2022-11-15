@@ -21,6 +21,7 @@ header {
 
 .header_left {
     font-family: 'Cutive', serif;
+    font-weight:lighter;
     font-size: 24px;
 }
 
@@ -39,4 +40,75 @@ a {
     text-decoration: none;
     color: #e9eded;
     font-size: 16px;
+}
+
+/*hero image*/
+.hero_image {
+    background-image: url(images/hero_image.jpg);
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.hero_text {
+    font-family: 'Cutive', serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #e9eded;
+    line-height: 90px;
+}
+
+/*Recent Artworks*/
+.square {
+    height: 216px;
+    width: 184px;
+    object-fit: cover;
+    border-radius: 20px;;
+}
+
+.recent_art {
+    padding: 25px;
+}
+
+.recent_title {
+    font-family: 'Cutive',  serif;
+    font-weight: lighter;
+    font-size: 25px;
+    color: #1d2b2c;
+    text-align: center;
+}
+
+.recent_images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title,
+.material {
+    font-family: 'Oxygen', sans-serif;
+    color: #1d2b2c;
+}
+
+.title {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 2px;
+}
+
+.material {
+    font-size: 14px;
+    margin-top: 0;
 }
